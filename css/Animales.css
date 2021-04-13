@@ -1,0 +1,42 @@
+.contenedor{
+    text-align: center;
+ }
+       
+      
+.centrado{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gatos{
+    width: 1000px;
+    height: 600px;
+    padding-left: 50px;
+}
+
+.margen{
+    padding-left: 50px;
+}
+
+div.row > div.col-3{
+    border: 50px;
+    border-color: black;
+}
+
+    div.row div.col-3 > img{
+        width: 105%;
+        height: 100%;
+    }
+
+div > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#Nombres{
+    text-align: center;
+}

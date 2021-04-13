@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/maqueta.css">
+    <title>Actividad Bootstrap</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Esto es la barra de navegacion superior !--->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><a title="Logo" href="index.html"><img src="imagenes/LogoTexto.png" alt="logo" class="img-fluid" style="width: 20em;"/></a></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Colabora</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Adopta
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="Perros.html">Perros</a></li>
+                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <br>  
+    <div class="row">
+      <h2>Kiss</h2> <!-- Aqui va el nombre de la mascota -->
+    </div>
+    <div class="row">
+      <div class="col-6" style="background-color: aqua;">
+        <img src="https://www.fundacion-affinity.org/sites/default/files/es-cuatro-veces-menos-probable-tener-un-vinculo-intenso-con-un-gato-comprado-que-con-uno-adoptado.jpg" alt="Animal"> <!-- Aqui va la foto de la mascota -->
+      </div>
+      <div class="col-6" style="background-color: whitesmoke;">
+        <div class="row"><h2>Bio</h2></div>
+        <ul>
+          <li>Nombre: Kiss</li>
+          <li>Edad: 2</li>
+          <li>Raza: Grey</li>
+          <li>Sexo: Femenino</li>
+          <li>Tamaño: 65cm</li>
+        </ul>
+        <hr>
+        <div class="row"><h2>Mas Información</h2></div>
+        <ul>
+          <li>Se adapta a departamentos: No</li>
+          <li>Convive con niños: Si</li>
+          <li>Convive con perros: No</li>
+          <li>Convive con gatos: Si</li>
+          <li>Nivel de energia: Alto</li>
+          <li>Esterelizado: Si</li>
+          <li>Wsp: +56981469427</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+
+
+
+    <!-- Aqui va el footer !--->
+    <hr class="featurette-divider"> <!-- DIVISOR -->
+      <div id="poto" class="d-flex justify-content-center">
+        <a title="Facebook" href="#"><img src="imagenes/facebook.png" alt="Facebook" class="img-fluid"/></a>
+        <a title="whatsapp" href="#"><img src="imagenes/Wsapi.png" alt="Whatsapp" class="img-fluid"/></a>
+        <a title="instagram" href="#"><img src="imagenes/Insta.png" alt="instagram" class="img-fluid"/></a>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>© 2021 AdoptaAnimales,inc <a href="#">Privacy</a> <a href="#">Terms</a> </p>
+      </div>
+  </body>
+
+</html>
